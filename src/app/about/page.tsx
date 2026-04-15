@@ -73,15 +73,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="mt-20">
-        <Card>
-          <p className="text-sm uppercase tracking-[0.24em] text-gold">Team</p>
-          <h2 className="mt-4 text-3xl font-semibold text-white">Team section placeholder</h2>
-          <p className="mt-4 max-w-2xl text-sm leading-7 text-ink-300">
-            Reserved for founder bios, operator profiles, and future advisory depth. The structure is here so content can be added directly without revisiting layout.
-          </p>
-        </Card>
-      </section>
     </div>
   );
 }

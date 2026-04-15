@@ -44,12 +44,7 @@ export default function HomePage() {
             Hatched Labs builds dedicated AI assistants for professionals who need research, communication support,
             and operational follow-through without sacrificing privacy or quality.
           </p>
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Button href="/get-started">Get Started</Button>
-            <Button href="/pricing" variant="secondary">
-              View Pricing
-            </Button>
-          </div>
+
           <div className="mt-12 max-w-xl">
             <EmailCapture />
           </div>
@@ -141,26 +136,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
-        <Card className="overflow-hidden">
-          <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
-            <div>
-              <p className="text-sm uppercase tracking-[0.24em] text-gold">Start your agent</p>
-              <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
-                Build the assistant that understands how you work
-              </h2>
-              <p className="mt-4 max-w-2xl text-base leading-8 text-ink-300">
-                Complete your imprint, choose your tier, and we&apos;ll take it from there.
-              </p>
-            </div>
-            <div>
-              <Button href="/get-started" className="w-full sm:w-auto">
-                Get Started
-              </Button>
-            </div>
-          </div>
-        </Card>
-      </section>
+
     </div>
   );
 }

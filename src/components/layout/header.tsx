@@ -30,14 +30,7 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-3">
-          <Button href="/get-started" className="hidden sm:inline-flex">
-            Get Started
-          </Button>
-          <Button href="/get-started" variant="secondary" className="sm:hidden">
-            Start
-          </Button>
-        </div>
+
       </div>
     </header>
   );

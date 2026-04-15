@@ -26,7 +26,7 @@ export const tiers = {
   pro: {
     id: "pro" as TierId,
     name: "Pro",
-    monthlyPrice: 797,
+    monthlyPrice: 497,
     engine: "Anthropic Claude Sonnet",
     support: "Priority email support (24-hour response)",
     description:

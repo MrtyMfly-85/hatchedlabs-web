@@ -65,15 +65,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="mt-20">
-        <Card className="min-h-[260px] border-dashed">
-          <p className="text-sm uppercase tracking-[0.24em] text-gold">See It In Action</p>
-          <h2 className="mt-4 text-3xl font-semibold text-white">Demo and product walkthrough placeholder</h2>
-          <p className="mt-4 max-w-2xl text-sm leading-7 text-ink-300">
-            This section is intentionally reserved for a future video or interactive demo. The structure is in place so a media asset can drop in without redesigning the page.
-          </p>
-        </Card>
-      </section>
     </div>
   );
 }

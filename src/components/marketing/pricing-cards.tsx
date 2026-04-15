@@ -24,9 +24,7 @@ export function PricingCards() {
               <li key={feature}>• {feature}</li>
             ))}
           </ul>
-          <div className="mt-8">
-            <Button href={tier.ctaHref}>{`Choose ${tier.name}`}</Button>
-          </div>
+
         </Card>
       ))}
     </div>

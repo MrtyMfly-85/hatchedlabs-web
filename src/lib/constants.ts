@@ -89,16 +89,7 @@ export const pricingFaqs = [
     answer:
       "Yes. We can upgrade your assistant once you are ready for inbox, calendar, and premium workflow support.",
   },
-  {
-    question: "Is Stripe live today?",
-    answer:
-      "Not yet. The current checkout step captures your profile and routes it to our team while Stripe is being finalized.",
-  },
-  {
-    question: "How fast do I get my assistant?",
-    answer:
-      "Most assistants are configured and delivered within 24 to 48 hours after we receive your onboarding details.",
-  },
+
 ];
 
 export const serviceCategories = [

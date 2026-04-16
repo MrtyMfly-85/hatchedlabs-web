@@ -31,9 +31,6 @@ export function Footer() {
             <a href="mailto:hello@hatchedlabs.ai" className="transition hover:text-white">
               hello@hatchedlabs.ai
             </a>
-            <a href="mailto:support@hatchedlabs.ai" className="transition hover:text-white">
-              support@hatchedlabs.ai
-            </a>
             <span>Social links coming soon</span>
           </div>
         </div>

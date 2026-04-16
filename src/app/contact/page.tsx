@@ -27,10 +27,7 @@ export default function ContactPage() {
             <h2 className="text-2xl font-semibold text-white">Email</h2>
             <div className="mt-4 space-y-3 text-sm text-ink-300">
               <p>
-                Sales: <a href="mailto:hello@hatchedlabs.ai" className="text-white">hello@hatchedlabs.ai</a>
-              </p>
-              <p>
-                Support: <a href="mailto:support@hatchedlabs.ai" className="text-white">support@hatchedlabs.ai</a>
+                <a href="mailto:hello@hatchedlabs.ai" className="text-white">hello@hatchedlabs.ai</a>
               </p>
             </div>
           </Card>

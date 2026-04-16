@@ -26,7 +26,7 @@ export const tiers = {
   pro: {
     id: "pro" as TierId,
     name: "Pro",
-    engine: "Advanced AI Engine",
+    engine: "Advanced AI Engine With Custom Personality",
     support: "Priority email support (24-hour response)",
     description:
       "For operators who want a dedicated AI assistant that handles research, recurring work, and daily follow-through.",
@@ -46,7 +46,7 @@ export const tiers = {
   elite: {
     id: "elite" as TierId,
     name: "Elite",
-    engine: "Advanced AI Engine",
+    engine: "Advanced AI Engine With Custom Personality",
     support: "Same-day priority support",
     description:
       "For leaders who want deeper intelligence, inbox and calendar execution, and custom workflows built around how they work.",

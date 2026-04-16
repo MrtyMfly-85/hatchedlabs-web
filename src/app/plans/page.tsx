@@ -1,19 +1,18 @@
 import Script from "next/script";
 import { PricingCards } from "../../components/marketing/pricing-cards";
 import { SectionHeading } from "../../components/marketing/section-heading";
-import { Button } from "../../components/ui/button";
 import { Card } from "../../components/ui/card";
-import { pricingComparisonRows, pricingFaqs, SITE_URL, tiers } from "../../lib/constants";
+import { pricingComparisonRows, pricingFaqs, tiers } from "../../lib/constants";
 import { buildMetadata } from "../../lib/metadata";
 
 export const metadata = buildMetadata({
-  title: "Pricing | Hatched Labs",
+  title: "Plans | Hatched Labs",
   description:
-    "Compare Hatched Labs Pro and Elite plans, pricing, support, setup fees, and rollout details for your personal AI assistant.",
-  path: "/pricing",
+    "Compare Hatched Labs Pro and Elite plans — features, support levels, and what each tier includes for your personal AI assistant.",
+  path: "/plans",
 });
 
-export default function PricingPage() {
+export default function PlansPage() {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -33,12 +32,11 @@ export default function PricingPage() {
         {JSON.stringify(faqJsonLd)}
       </Script>
       <SectionHeading
-        eyebrow="Pricing"
+        eyebrow="Plans"
         title="Two service tiers. One white-glove experience."
         description="Choose the intelligence, integrations, and support level that matches the assistant you want in your corner."
         align="center"
       />
-      <p className="mt-6 text-center text-sm text-ink-300">Setup fee: $250, waived with annual commitment.</p>
 
       <div className="mt-12">
         <PricingCards />
@@ -75,9 +73,7 @@ export default function PricingPage() {
                 <li key={feature}>• {feature}</li>
               ))}
             </ul>
-            <div className="mt-8">
-              <Button href={`${SITE_URL}/get-started?tier=${tier.id}`.replace(SITE_URL, "")}>{`Get Started with ${tier.name}`}</Button>
-            </div>
+
           </Card>
         ))}
       </div>

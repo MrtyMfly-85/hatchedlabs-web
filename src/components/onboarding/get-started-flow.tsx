@@ -19,7 +19,6 @@ import {
   type PersonaId,
   type TierId,
 } from "../../lib/constants";
-import { formatCurrency } from "../../lib/utils";
 
 type FlowProps = {
   initialTier?: TierId;
@@ -239,7 +238,7 @@ export function GetStartedFlow({ initialTier = "pro" }: FlowProps) {
                     <h2 className="text-2xl font-semibold text-white">{tier.name}</h2>
                     <p className="mt-2 text-sm text-gold">{tier.engine}</p>
                   </div>
-                  <p className="text-2xl font-semibold text-white">{formatCurrency(tier.monthlyPrice)}</p>
+                  <p className="text-sm text-ink-300">{tier.support}</p>
                 </div>
                 <ul className="mt-6 space-y-3 text-sm text-ink-300">
                   {tier.features.slice(0, 6).map((feature) => (
@@ -541,23 +540,23 @@ export function GetStartedFlow({ initialTier = "pro" }: FlowProps) {
             </div>
           </Card>
           <Card>
-            <h2 className="text-2xl font-semibold text-white">Order summary</h2>
+            <h2 className="text-2xl font-semibold text-white">Summary</h2>
             <div className="mt-6 space-y-4 text-sm text-ink-300">
               <div className="flex items-center justify-between">
-                <span>{selectedTier.name} monthly plan</span>
-                <span className="text-white">{formatCurrency(selectedTier.monthlyPrice)}</span>
+                <span>Plan</span>
+                <span className="text-white">{selectedTier.name}</span>
               </div>
               <div className="flex items-center justify-between">
-                <span>Setup fee</span>
-                <span className="text-white">{formatCurrency(250)}</span>
+                <span>AI model</span>
+                <span className="text-white">{selectedTier.engine}</span>
               </div>
-              <div className="flex items-center justify-between border-t border-ink-700 pt-4 text-base">
-                <span className="text-white">Total due now</span>
-                <span className="font-semibold text-white">{formatCurrency(selectedTier.monthlyPrice + 250)}</span>
+              <div className="flex items-center justify-between">
+                <span>Support</span>
+                <span className="text-white">{selectedTier.support}</span>
               </div>
             </div>
             <Button type="button" className="mt-8 w-full" onClick={handleCheckout} disabled={submitting || !form.email}>
-              {submitting ? "Saving..." : "Complete Purchase"}
+              {submitting ? "Saving..." : "Submit Request"}
             </Button>
           </Card>
         </div>

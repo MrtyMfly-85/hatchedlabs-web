@@ -4,7 +4,7 @@ import { SITE_URL } from "../lib/constants";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     "",
-    "/pricing",
+    "/plans",
     "/services",
     "/about",
     "/contact",

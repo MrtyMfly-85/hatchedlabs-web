@@ -111,7 +111,7 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <SectionHeading
-          eyebrow="Pricing"
+          eyebrow="Plans"
           title="Two high-touch service tiers"
           description="Start with the level of intelligence and integration depth that fits the role you want your assistant to play."
         />

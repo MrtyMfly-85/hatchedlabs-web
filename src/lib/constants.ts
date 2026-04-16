@@ -17,7 +17,7 @@ export type PersonaId =
 export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
-  { href: "/pricing", label: "Pricing" },
+  { href: "/plans", label: "Plans" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -26,7 +26,6 @@ export const tiers = {
   pro: {
     id: "pro" as TierId,
     name: "Pro",
-    monthlyPrice: 497,
     engine: "Anthropic Claude Sonnet",
     support: "Priority email support (24-hour response)",
     description:
@@ -47,7 +46,6 @@ export const tiers = {
   elite: {
     id: "elite" as TierId,
     name: "Elite",
-    monthlyPrice: 997,
     engine: "Anthropic Claude Opus",
     support: "Same-day priority support",
     description:
@@ -80,9 +78,9 @@ export const pricingComparisonRows = [
 
 export const pricingFaqs = [
   {
-    question: "What does the setup fee cover?",
+    question: "Is there a setup fee?",
     answer:
-      "The $250 setup fee covers onboarding, imprint review, initial configuration, custom knowledge base loading, and deployment. It is waived with an annual commitment.",
+      "There is a one-time setup fee that covers onboarding, imprint review, initial configuration, custom knowledge base loading, and deployment. It is waived with an annual commitment.",
   },
   {
     question: "Can I upgrade from Pro to Elite later?",

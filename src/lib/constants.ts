@@ -53,7 +53,6 @@ export const tiers = {
     ctaHref: "/get-started?tier=elite",
     features: [
       "Everything in Pro",
-      "Best-in-class AI intelligence",
       "Full email integration",
       "Calendar access and management",
       "Custom skills and industry workflows",

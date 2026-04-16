@@ -50,7 +50,8 @@ export const tiers = {
       "For leaders who want deeper intelligence, inbox and calendar execution, and custom workflows built around how they work.",
     ctaHref: "/get-started?tier=elite",
     features: [
-      "Everything in Pro",
+      "**Everything in Pro**",
+      "_Plus_",
       "Your Email Integration (Gmail / Outlook)",
       "Calendar Integration",
       "Google Docs Access",

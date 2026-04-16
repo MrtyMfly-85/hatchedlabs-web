@@ -7,7 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/plans",
     "/services",
     "/about",
-    "/contact",
     "/privacy",
     "/get-started",
     "/get-started/confirmed",

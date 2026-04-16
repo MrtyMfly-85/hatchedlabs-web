@@ -19,7 +19,6 @@ export const navLinks = [
   { href: "/services", label: "Services" },
   { href: "/plans", label: "Plans" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export const tiers = {

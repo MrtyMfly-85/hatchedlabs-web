@@ -1,9 +1,7 @@
 import { EmailCapture } from "../components/marketing/email-capture";
 import { PricingCards } from "../components/marketing/pricing-cards";
 import { SectionHeading } from "../components/marketing/section-heading";
-import { Button } from "../components/ui/button";
 import { Card } from "../components/ui/card";
-import { testimonials } from "../lib/constants";
 import { buildMetadata } from "../lib/metadata";
 
 export const metadata = buildMetadata({
@@ -119,23 +117,6 @@ export default function HomePage() {
           <PricingCards />
         </div>
       </section>
-
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <SectionHeading
-          eyebrow="Trust Signals"
-          title="Built for professionals who care about polish, privacy, and follow-through"
-          description="Placeholder social proof until live case studies and testimonials are published."
-        />
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
-          {testimonials.map((testimonial) => (
-            <Card key={testimonial.name}>
-              <p className="text-lg leading-8 text-white">&ldquo;{testimonial.quote}&rdquo;</p>
-              <p className="mt-6 text-sm text-ink-300">{testimonial.name}</p>
-            </Card>
-          ))}
-        </div>
-      </section>
-
 
     </div>
   );

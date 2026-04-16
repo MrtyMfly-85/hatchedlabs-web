@@ -332,20 +332,4 @@ export const personas = {
   },
 };
 
-export const testimonials = [
-  {
-    quote:
-      "It feels less like software and more like having an operator in the room with me.",
-    name: "Founder, advisory firm",
-  },
-  {
-    quote:
-      "The difference is the setup. It reflects how I actually work instead of forcing me into a template.",
-    name: "Principal, real estate team",
-  },
-  {
-    quote:
-      "We finally have an assistant that can research, write, and follow through without constant re-explaining.",
-    name: "Managing partner, services business",
-  },
-];
+

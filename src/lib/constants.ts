@@ -47,7 +47,7 @@ export const tiers = {
     engine: "Advanced AI Engine With Custom Personality",
     support: "Same-day priority support",
     description:
-      "For professionals who need an AI assistant with email and calendar integration, multi-tasking, and business support built around how they work.",
+      "For professionals who need a fully integrated AI assistant — connected to their email, calendar, and cloud, with advanced multi-tasking.",
     ctaHref: "/get-started?tier=elite",
     features: [
       "**Everything in Pro**",

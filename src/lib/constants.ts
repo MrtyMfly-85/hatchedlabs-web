@@ -26,7 +26,7 @@ export const tiers = {
   pro: {
     id: "pro" as TierId,
     name: "Pro",
-    engine: "Anthropic Claude Sonnet",
+    engine: "Advanced AI Engine",
     support: "Priority email support (24-hour response)",
     description:
       "For operators who want a dedicated AI assistant that handles research, recurring work, and daily follow-through.",
@@ -46,7 +46,7 @@ export const tiers = {
   elite: {
     id: "elite" as TierId,
     name: "Elite",
-    engine: "Anthropic Claude Opus",
+    engine: "Advanced AI Engine",
     support: "Same-day priority support",
     description:
       "For leaders who want deeper intelligence, inbox and calendar execution, and custom workflows built around how they work.",
@@ -66,7 +66,6 @@ export const tiers = {
 };
 
 export const pricingComparisonRows = [
-  ["AI model", "Claude Sonnet", "Claude Opus"],
   ["Telegram access", "Included", "Included"],
   ["Web research and browsing", "Included", "Included"],
   ["Agent inbox", "Dedicated inbox", "Dedicated inbox + personal integration"],

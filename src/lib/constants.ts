@@ -31,7 +31,7 @@ export const tiers = {
       "For professionals who need a dedicated AI assistant that handles research, recurring work, and daily follow-through.",
     ctaHref: "/get-started?tier=pro",
     features: [
-      "Telegram & Text Messaging",
+      "Available 24/7 via Telegram",
       "Dedicated Agent Email",
       "Image Generation",
       "Research & Market Intel",

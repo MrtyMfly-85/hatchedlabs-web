@@ -9,7 +9,7 @@ export function Footer() {
         <div className="space-y-4">
           <Image src="/logo.svg" alt="Hatched Labs logo" width={160} height={38} />
           <p className="max-w-md text-sm leading-7 text-ink-300">
-            Personal AI assistants for entrepreneurs, operators, and professionals who want execution without losing control.
+            Personal AI assistants — Built for you. Working for you. Only for you.
           </p>
         </div>
         <div>

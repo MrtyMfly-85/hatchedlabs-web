@@ -138,9 +138,9 @@ export const industryUseCases = [
       "Protect focus time, summarize moving parts, and keep inbox, calendar, and research from fragmenting the day.",
   },
   {
-    industry: "Healthcare & Practices",
+    industry: "Small Business Owners",
     useCase:
-      "Support follow-up workflows, operational reporting, scheduling coordination, and compliant internal organization.",
+      "Support follow-up workflows, operational reporting, and scheduling coordination.",
   },
 ];
 

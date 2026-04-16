@@ -12,7 +12,7 @@ export function PricingCards() {
           </div>
           <p className="mt-4 text-sm text-gold">{tier.engine}</p>
           <ul className="mt-6 space-y-3 text-sm text-ink-300">
-            {tier.features.slice(0, 5).map((feature) => (
+            {tier.features.map((feature) => (
               <li key={feature}>• {feature}</li>
             ))}
           </ul>

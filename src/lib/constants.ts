@@ -28,7 +28,7 @@ export const tiers = {
     engine: "Advanced AI Engine With Custom Personality",
     support: "Priority email support (24-hour response)",
     description:
-      "For operators who want a dedicated AI assistant that handles research, recurring work, and daily follow-through.",
+      "For professionals who need a dedicated AI assistant that handles research, recurring work, and daily follow-through.",
     ctaHref: "/get-started?tier=pro",
     features: [
       "Telegram & Text Messaging",
